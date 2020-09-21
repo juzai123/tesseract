@@ -1,0 +1,7 @@
+Docker image for tesseract, using `Release Builds for Mass Production` section in [tesseract installation doc](https://tesseract-ocr.github.io/tessdoc/Compiling-%E2%80%93-GitInstallation.html)
+
+OCR engie is [Best (most accurate) trained LSTM models.](https://github.com/tesseract-ocr/tessdata_best)
+
+USAGE:
+
+docker run --rm -it -v path_to_your_image:/tmp/image juzai/tesseract /tmp/image stdout
